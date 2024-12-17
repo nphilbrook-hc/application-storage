@@ -2,6 +2,6 @@ module "simple_bucket" {
   source  = "terraform-aws-modules/s3-bucket/aws"
   version = "~>4.1.2"
   
-  bucket_prefix = "plugincachedebugcreatedbucket-foo"
+  bucket_prefix = "plugincachedebugcreatedbucket-baz"
   force_destroy = true
 }
